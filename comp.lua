@@ -414,7 +414,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync(https://raw.githubusercontent.com/kevreyli2234/stefanuk12edited/main/comp.lua))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/kevreyli2234/stefanuk12edited/main/comp.lua"))()
 
 -- // Hook
 mt.__index = newcclosure(function(t, k)
